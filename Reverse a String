@@ -1,0 +1,16 @@
+function reverseString (str) {
+var array = str.split("");
+array.reverse();
+var result = array.join("");
+ return result;
+ }
+ 
+ console.log(reverseString("Hello"));
+ 
+ // Or you can try this way
+ 
+ function reverseString(str) {
+ returnn str.split("").reverse().join("");
+ }
+ 
+ console.log(reverseString("Hello"));
